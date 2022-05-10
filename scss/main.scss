@@ -1,0 +1,13 @@
+$web_vwidth : 1280px;
+$primary_color: #7dff31;
+$light_color: #f4f4f4;
+$dark_color: #1d1d1d;
+$main_bg: url('../img/main_bg.jpg');
+
+* { margin: 0; padding: 0; box-sizing: border-box;}
+body { font-family: 'Roberto', sans-serif; }
+a { text-decoration: none; color: $primary_color}
+ul { list-style-type: none ; }
+h1, h2, h3, h4 {font-weight: 500; text-transform: uppercase;}
+
+body {background: $main_bg; background-size: 100%;}

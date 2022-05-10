@@ -1,0 +1,12 @@
+{
+  "name": "app_portfolio",
+  "version": "0.1.0",
+  "description": "Site portfolio avec SASS et Flexbox",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "WolfyzDev",
+  "license": "MIT",
+  "private": false
+}
