@@ -11,3 +11,12 @@ ul { list-style-type: none ; }
 h1, h2, h3, h4 {font-weight: 500; text-transform: uppercase;}
 
 body {background: $main_bg; background-size: 100%;}
+
+.btn { 
+  color: $dark_color;
+  padding: 10px 20px; 
+  background-color: $primary_color; 
+  border-radius: 5px;
+}
+
+.btn:hover { color: $primary_color; background-color: $dark_color; }
